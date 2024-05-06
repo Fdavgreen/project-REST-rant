@@ -25,3 +25,12 @@ REST-Rant is an app where users can review restaurants.
 | PUT    | /places/:id   | Update a particular place              |
 | GET    | /places/:id/edit | Form page for editing an existing place |
 | DELETE | /places/:id   | Delete a particular place              |
+
+
+| name         | city          | state   | cuisines           | pic      |
+| ------------ | ------------- | ------- | ------------------ | -------- |
+| The Rusty Spoon | New York      | NY      | Italian            | https://example.com/restaurant1.jpg |
+| Delicious Bites | Los Angeles   | CA      | Mexican            | https://example.com/restaurant2.jpg |
+| Cozy Corner   | Chicago       | IL      | American           | https://example.com/restaurant3.jpg |
+| Spice Fusion  | Houston       | TX      | Indian             | https://example.com/restaurant4.jpg |
+| Ocean Blue    | Miami         | FL      | Seafood            | https://example.com/restaurant5.jpg |
