@@ -34,3 +34,7 @@ REST-Rant is an app where users can review restaurants.
 | Cozy Corner   | Chicago       | IL      | American           | https://example.com/restaurant3.jpg |
 | Spice Fusion  | Houston       | TX      | Indian             | https://example.com/restaurant4.jpg |
 | Ocean Blue    | Miami         | FL      | Seafood            | https://example.com/restaurant5.jpg |
+
+
+Next, draw some wireframes. These can be electronic or on paper, complex or simple.
+Choose a color scheme. It should include at least 3 colors: A primary color, a secondary color, and a highlight color.
