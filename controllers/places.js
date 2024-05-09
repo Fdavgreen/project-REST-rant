@@ -2,9 +2,9 @@ const router = require('express').Router();
 const express = require('express');
 const app = express();
 
-router.get('/', (req, res) => {
-    res.send('places');
-});
+// router.get('/', (req, res) => {
+//     res.render('places');
+// });
 
 // GET /places
 router.get('/', (req, res) => {

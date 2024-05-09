@@ -1,18 +1,8 @@
 const React = require('react')
-const Def = require('./default')
+const Def = require('../default')
 
-// function places () {
-//     return (
-//       <Def>
-//           <main>
-//               <h1>404: PAGE NOT FOUND</h1>
-//               <p>Oops, sorry, we can't find this page!</p>
-//           </main>
-//       </Def>
-//     )
-//   }
-  
-  function index (data) {
+function places (data) {
+
     let placesFormatted = data.places.map((place) => {
       return (
         <div>
@@ -32,4 +22,4 @@ const Def = require('./default')
   }
   
 
-module.exports = places
+module.exports = places 
