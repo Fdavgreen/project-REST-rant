@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+  }
+
+  .btn-primary {
+  color: red;
+  text-align: center;
+}
+  
+.chia-fruit-drink {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sadcat{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.picks{
+  max-height: 200%;
+  max-width: 200%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto; 
+}
+
+.col-sm-6{
+text-align: center;
+}

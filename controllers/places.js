@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // router.get('/', (req, res) => {
-//     res.render('places');
+//     res.render('/places');
 // });
 
 // GET /places
@@ -13,13 +13,15 @@ router.get('/', (req, res) => {
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/foodplaces1.jpg',
     }, {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/foodplaces2.jpg',
+        
+        
     }];
     res.render('places/index', { places });
 });
