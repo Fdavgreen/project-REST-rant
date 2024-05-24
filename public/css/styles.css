@@ -3,10 +3,10 @@ h1 {
     color: cornflowerblue;
   }
 
-  .btn-primary {
+  /* .btn-primary {
   color: red;
   text-align: center;
-}
+} */
   
 .chia-fruit-drink {
   width: 500px;
@@ -31,6 +31,10 @@ h1 {
   margin: 0 auto; 
 }
 
-.col-sm-6{
-text-align: center;
+
+.btn-primary{
+  color: blue;
 }
+
+
+
