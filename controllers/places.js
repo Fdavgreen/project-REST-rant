@@ -13,24 +13,24 @@ router.get('/', (req, res) => {
 // });
 
 // GET /places
-router.get('/', (req, res) => {
-    let places = [{
-        name: 'H-Thai-ML',
-        city: 'Seattle',
-        state: 'WA',
-        cuisines: 'Thai, Pan-Asian',
-        pic: '/images/foodplaces1.jpg',
-    }, {
-        name: 'Coding Cat Cafe',
-        city: 'Phoenix',
-        state: 'AZ',
-        cuisines: 'Coffee, Bakery',
-        pic: '/images/foodplaces2.jpg',
+// router.get('/', (req, res) => {
+//     let places = [{
+//         name: 'H-Thai-ML',
+//         city: 'Seattle',
+//         state: 'WA',
+//         cuisines: 'Thai, Pan-Asian',
+//         pic: '/images/foodplaces1.jpg',
+//     }, {
+//         name: 'Coding Cat Cafe',
+//         city: 'Phoenix',
+//         state: 'AZ',
+//         cuisines: 'Coffee, Bakery',
+//         pic: '/images/foodplaces2.jpg',
         
         
-    }];
-    res.render('places/index', { places });
-});
+//     }];
+//     res.render('places/index', { places });
+// });
 
 router.get('/new', (req, res) => {
     res.render('places/new');
