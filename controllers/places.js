@@ -8,30 +8,6 @@ router.get('/', (req, res) => {
     res.render('places/index', { places });
 });
 
-// router.get('/', (req, res) => {
-//     res.render('/places');
-// });
-
-// GET /places
-// router.get('/', (req, res) => {
-//     let places = [{
-//         name: 'H-Thai-ML',
-//         city: 'Seattle',
-//         state: 'WA',
-//         cuisines: 'Thai, Pan-Asian',
-//         pic: '/images/foodplaces1.jpg',
-//     }, {
-//         name: 'Coding Cat Cafe',
-//         city: 'Phoenix',
-//         state: 'AZ',
-//         cuisines: 'Coffee, Bakery',
-//         pic: '/images/foodplaces2.jpg',
-        
-        
-//     }];
-//     res.render('places/index', { places });
-// });
-
 router.get('/:id', (req, res) => {
     let id = Number(req.params.id)
     if (isNaN(id)) {
@@ -41,9 +17,24 @@ router.get('/:id', (req, res) => {
       res.render('error404')
     }
     else {
-      res.render('places/show',{place: places[id]})
+      res.render('places/show',{place: places[id], id})
     }
   })
+
+  router.delete('/:id', (req, res) => {
+    let id = Number(req.params.id)
+    if (isNaN(id)) {
+      res.render('error404')
+    }
+    else if (!places[id]) {
+      res.render('error404')
+    }
+    else {
+      places.splice(id, 1)
+      res.redirect('/places')
+    }
+  })
+  
   
   
 
