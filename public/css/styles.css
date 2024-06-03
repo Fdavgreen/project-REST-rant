@@ -65,12 +65,25 @@ nav a:hover {
 body {
   background-color: lightblue;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-main {
+.main {
   margin-right: 20px;
   margin-left: 20px;
   background-color: white;
+  flex: 1;
 }
 
+html, body {
+  height: 100%;
+}
+
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
 
